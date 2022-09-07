@@ -1,0 +1,204 @@
+*{
+   box-sizing: border-box;
+}
+
+
+main{
+ width: 90%;
+ margin: auto;
+ padding: 10%;
+ 
+
+}
+   
+    
+body{
+   font-family:'Roboto',sans-serif;
+   background-color: rgb(237, 231, 231);
+}
+
+.main-header{
+   background-color: #EAC926;
+   padding: 5PX;
+}
+.Logo{
+   width: 150px;
+   padding-bottom: 30px;
+}
+.hamburger-buttom{
+   background-color:#03264C ;
+   color: white;
+   display:block;
+   max-width: 50px;
+   padding: 15px 0;
+   border-radius: 9px;
+   text-align: center;
+   font-size: 16px;
+   margin: auto;
+
+   }
+
+
+
+.copy-header{
+    font-weight: 400;
+   text-align: center;
+   color:  #03264C;
+   font-size: 17px;
+}
+
+.main-header-bottom-bar{
+   color: #1259c3;
+}
+
+.main-navbar {
+   display: none;
+}
+
+.main-navbar ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+      
+}
+
+.main-navbar a{
+   text-decoration: none;
+   color: #1259c3;
+   display: inline-block;
+   padding: 5px 0;
+   font-size: 15px;
+      
+}
+
+.article{
+   font-size: 12px;
+   text-align: center;
+}
+
+.h5{
+   font-size: 24px;
+   
+}
+
+.precio{
+   font-size: 18px;
+}
+
+.descuentos, .descripcion{
+   font-size: 16px;
+}
+.search-bar{
+   display:inline;
+   max-width: 110px;
+   padding: 35px 0;
+   border-radius: 10px;
+   
+}
+
+h4{
+   text-align: center;
+}
+
+article{
+   text-align: center;
+
+}
+
+.icono-footer{
+   text-align: center;
+   font-size: 2em;
+   margin-bottom: 10px;
+   
+}
+.container-main{
+   background-color: white;
+   
+}
+
+.producto{
+   border-top: 1px solid #d0cece;
+   border-radius: 5px;
+   padding: 15px;
+   margin: 2%;
+   background-color:white;
+   display: inline-block;
+   box-shadow: 0px 0px 10px rgb(red, green, blue);
+  
+ }
+
+ .icono-visit, .icono-oferta{
+   color:#39b54a;
+   border: 1.3px solid #39b54a; 
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+   background-color: white;
+   margin: 5px;
+   align-items: flex-end;
+   margin-left: 1%;
+   padding:0px;
+ }
+
+.precio{
+   color: #666;
+   }
+.descuento{
+   color:#39b54a;
+   font-weight: bold;
+}
+.descripcion{
+   color: #666;
+}
+
+  
+
+
+@media(min-width:768px){
+   .main-header-top-bar{
+       display: flex;
+      justify-content: space-between;
+         }
+   .copy-header{
+      max-width: 350px;
+      text-align: right;
+   }
+   .hamburger-buttom{
+      display: none;
+   }
+   .main-navbar{
+      display:flex;
+      justify-content: space-between;
+      
+   }
+   .main-navbar ul{
+      display: flex;
+   }
+
+   .main-navbar li{
+      display:flex;
+      margin: 0px 4px;
+   }
+
+}
+@media(min-width: 1200px){
+.main-header-top-bar, .main-navbar{
+   max-width: 1200px;
+   margin:auto;  
+}
+   .producto{
+    margin: 0;
+       }
+      
+     
+ }
+
+
+
+
+
+
+
+
+
+

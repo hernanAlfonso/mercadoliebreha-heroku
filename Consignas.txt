@@ -1,0 +1,26 @@
+Paleta de colores
+
+Amarillo: #EAC926; 
+Azul: #03264C; 
+Celeste: #1259c3; 
+Gris oscuro: #666; 
+Gris claro: #ebebeb; 
+Verde: #39b54a; 
+
+
+Tipografías 
+
+Familia: 'Roboto’
+
+Para saber como cargarla:
+https://drive.google.com/file/d/1c1MqhN6a77eVXoQ7hJpzBoG1OPTqA-Ad/view 
+
+
+
+Tamaños Tipográficos 
+
+Cuerpos de texto: 12px 
+Titulares (Visita/Ofertas): 24px 
+Precios: 18px 
+Descuentos: 16px
+Descripciones: 16px
